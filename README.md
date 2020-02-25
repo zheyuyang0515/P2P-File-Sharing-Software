@@ -30,7 +30,8 @@ There are eight types of messages.
 |have   |   4 | 
 |bitfield   |   5 |
 |request   |   6 |
-|piece   |   7 |
+|piece   |   7 | 
+
 Now let me introduce the message payload of the above messages.
 #### choke, unchoke, interested, not interested
 ‘choke’, ‘unchoke’, ‘interested’ and ‘not interested’ messages have no payload. 
