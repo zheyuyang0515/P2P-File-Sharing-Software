@@ -10,7 +10,6 @@ The handshake consists of three parts: handshake header, zero bits, and peer ID.
 - handshake header
 - zero bits
 - peer ID
-
 ###actual messages
 After handshaking, each peer can send a stream of actual messages. An actual message consists of 4-byte message length field, 1-byte message type field, and a message payload with variable size.
 - message length
