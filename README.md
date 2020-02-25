@@ -6,7 +6,7 @@ This section outlines the protocol used to establish the file management operati
 The protocol consists of a handshake followed by a never-ending stream of length- prefixed messages.
 Whenever a connection is established between two peers, each of the peers of the connection sends to the other one the handshake message before sending other messages.
 
-###handshake message
+### handshake message
 
 The handshake consists of three parts: handshake header, zero bits, and peer ID. The length of the handshake message is 32 bytes. The handshake header is 18-byte string ‘P2PFILESHARINGPROJ’, which is followed by 10-byte zero bits, which is followed by 4-byte peer ID which is the integer representation of the peer ID.
 - handshake header
@@ -14,7 +14,7 @@ The handshake consists of three parts: handshake header, zero bits, and peer ID.
 - peer ID
 
 
-###actual messages
+### actual messages
 
 After handshaking, each peer can send a stream of actual messages. An actual message consists of 4-byte message length field, 1-byte message type field, and a message payload with variable size.
 - message length
