@@ -22,7 +22,7 @@ The 1-byte message type field specifies the type of the message.
 There are eight types of messages.
 
 |message type       | value   |
-| --------   | -----:   | :----: |
+| --------   | -----:   | 
 |    choke  |  0 |  
 |  unchoke |   1 |
 | interested  |   2 |
